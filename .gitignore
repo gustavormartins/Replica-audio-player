@@ -1,0 +1,89 @@
+# Rust build artifacts
+/target/
+/debug/
+/release/
+
+# Rust analyzer / coverage outputs
+*.profraw
+*.profdata
+lcov.info
+coverage/
+.tarpaulin/
+
+# Local databases and SQLite sidecars
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.bak
+*.backup
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.p8
+*.jks
+*.keystore
+secrets/
+credentials/
+*.token
+*_secret*
+*_credentials*
+
+# SSH private keys
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+
+# Logs, dumps and temporary files
+*.log
+*.dump
+*.core
+core
+*.tmp
+*.swp
+*.swo
+*~
+
+# Build/package output
+/dist/
+/build/
+/out/
+/pkg/
+/AppDir/
+*.AppImage
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Cargo.lock committed for reproducible application builds.
+# Do not ignore Cargo.lock.
