@@ -56,7 +56,7 @@ cargo install cargo-audit --locked
 cargo audit
 ```
 
-These commands require a valid Rust project manifest and implemented targets. As the project is currently being bootstrapped, some build and test commands may not pass until the application code and `Cargo.toml` are added.
+The repository currently includes a minimal Rust bootstrap so the quality workflow can run from the initial commit. The GTK/Libadwaita interface, persistence, and audio playback dependencies are not implemented yet; this bootstrap is not a functional audio player.
 
 ## Repository layout
 
@@ -71,14 +71,16 @@ resources/
   icons/
   styles/
 src/
-  app.rs
   main.rs
-  db/
-  models/
-  playback/
-  ui/
-tests/
-docs/
+  app.rs (planned)
+  db/ (planned)
+  models/ (planned)
+  playback/ (planned)
+  ui/ (planned)
+tests/ (planned)
+docs/ (planned)
+Cargo.toml
+Cargo.lock
 .gitignore
 CONTRIBUTING.md
 README.md
