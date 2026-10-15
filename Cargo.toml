@@ -1,0 +1,9 @@
+[package]
+name = "replica-audio-player"
+version = "0.1.0"
+edition = "2024"
+description = "A native Linux audio player built with Rust and GTK."
+readme = "README.md"
+publish = false
+
+[dependencies]
